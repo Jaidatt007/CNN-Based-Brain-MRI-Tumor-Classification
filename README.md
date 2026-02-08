@@ -244,6 +244,15 @@ The web interface allows users to upload MRI scans and receive instant predictio
 
 ![Dataset Visualization](snapshots/dataset_visualization.png)
 
+### 🔹 Training Progress
+
+![Training Accuracy & Loss](snapshots/training_accuracy_loss_over_epochs.png)
+
+**Training Metrics:**
+- Accuracy: **82% → 98%**
+- Loss: **0.48 → 0.06**
+- Stable convergence without overfitting
+
 ### 🔹 Classification Report
 
 ![Classification Report](snapshots/classification_report.png)
@@ -275,15 +284,6 @@ The web interface allows users to upload MRI scans and receive instant predictio
 **Observation:**
 - Most predictions achieve >90% confidence
 - Indicates strong model certainty
-
-### 🔹 Training Progress
-
-![Training Accuracy & Loss](snapshots/training_accuracy_loss_over_epochs.png)
-
-**Training Metrics:**
-- Accuracy: **82% → 98%**
-- Loss: **0.48 → 0.06**
-- Stable convergence without overfitting
 
 ---
 
